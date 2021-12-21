@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Dropdown Menus</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <span id="menu" class="material-icons">menu</span>
+      </div>
+      <div>
+        <h1>Lorem Ipsum</h1>
+      </div>
+      <span id="account" class="material-icons"> person </span>
+    </header>
+    <nav id="nav-bar">
+      <div id="close-menu">
+        <h1>X</h1>
+      </div>
+      <ul>
+        <li class="active-tab"><a>Home</a></li>
+        <li id="services">
+          <label id="services-label" for="toggle-services"
+            ><a>Services</a></label
+          >
+          <input type="checkbox" id="toggle-services" />
+          <ul id="services-dropdown">
+            <li><a>Service 1</a></li>
+            <li><a>Service 2</a></li>
+            <li><a>Service 3</a></li>
+            <li><a>Service 4</a></li>
+          </ul>
+        </li>
+        <li><a>Pricing</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores
+        accusantium dolore! Consectetur, quos error exercitationem nulla nobis
+        deserunt laudantium quas laboriosam ab illum doloremque et rem
+        architecto ut vel?
+      </p>
+    </main>
+    <footer></footer>
+    <div id="overlay"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
